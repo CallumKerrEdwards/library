@@ -5,14 +5,6 @@
             <h3 className="text-2xl text-gray-900 uppercase">{{ book.title }}</h3>
             <h3 className="text-gray-800">By {{ book.author }}</h3>
             Book {{ book.series.sequence }} of {{ book.series.title }}
-            <!-- <div class="flex justify-center">
-                <img className="w-48" :src="pokemon.sprites.front_shiny" alt="" />
-                <img className="w-48" :src="pokemon.sprites.back_shiny" alt="" />
-            </div>
-            <h3 class="text-yellow-400">Types</h3>
-            <div v-for="(type, idx) in pokemon.types" :key="idx">
-                <h5 class="text-blue-900">{{ type.type.name }}</h5>
-            </div> -->
         </div>
     </div>
 </template>
