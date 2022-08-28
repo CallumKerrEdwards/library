@@ -18,8 +18,7 @@ services:
       - "database_mongo:/data/db"
 
   api:
-    build: server/
-    image: "ghcr.io/callumkerredwards/library/server:development"
+    image: "ghcr.io/callumkerredwards/library-api:latest"
     environment:
       DB_USERNAME: "root"
       DB_PASSWORD: "mongopwd"
